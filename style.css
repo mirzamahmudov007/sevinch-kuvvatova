@@ -1,0 +1,387 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* page first styles */
+
+.page_first {
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: #10B582;
+}
+
+/* container styles */
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+/* header(navbar) styles */
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header_item {
+    list-style-type: none;
+    color: #FDFDFD;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 30px 0px;
+}
+
+.menu  img{
+    width: 30px;
+    display: none;
+    
+}
+
+/* main styles */
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0px;
+}
+
+.main_left .img_main_top {
+    margin-bottom: 80px;
+}
+
+.main_center {
+    text-align: center;
+    margin: 80px 0px;
+}
+
+.main_center .title {
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px 0px;
+    color: #FDFDFD;
+}
+
+.main_center .description {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FDFDFD;
+}
+
+.main_center .main_button {
+    background-color: rgba(255, 145, 0, 0.941);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #FDFDFD;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    width: 200px;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+/* page second styles */
+
+.page_second {
+    width: 100%;
+}
+
+.page_second_header {
+    width: 100%;
+    display: flex;
+}
+
+.page_second_header_item {
+    width: calc(100%/4 - 40px);
+    margin: 20px;
+}
+
+.page_second_header_item h2 {
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #10B582;
+    text-align: center;
+}
+
+.page_second_header_item p {
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(2, 2, 78);
+    text-align: center;
+}
+
+/* main second styles */
+
+.main_second {
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+.main_second .learn_text {
+    width: calc(100%/2 - 40px);
+    margin-top: 50px;
+}
+
+.learn_text h2 {
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(2, 2, 78);
+}
+
+.learn_text .first_text {
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(2, 2, 78);
+    margin-top: 20px;
+}
+
+.learn_text .second_text {
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(2, 2, 78);
+}
+
+.button {
+    width: 180px;
+    height: 40px;
+    background-color: #10B582;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    margin-top: 50px;
+}
+
+.button p {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-top: 6px;
+}
+
+/* teachers images styles */
+
+.teachers_images {
+    width: calc(100%/2 - 40px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(100%/3 - 40px);
+    text-align: center;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(2, 2, 78);
+}
+
+/* page third styles */
+
+.page_third {
+    width: 100%;
+    background-color: #10B582;
+}
+
+.format_learn {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.imgs {
+    width: calc(50% - 100px);
+    position: relative;
+}
+
+.image_dash {
+    
+    width: 100%;
+}
+
+.image_main {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    right: 40px;
+    border-top-right-radius: 150px;
+}
+
+.kurs_about {
+    width: calc(50% - 100px);
+}
+
+.kurs_about h2 {
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.kurs_about p {
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.button_kurs {
+    background-color: rgba(255, 145, 0, 0.941);
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border: none;
+    color: white;
+    padding-bottom: 6px;
+}
+
+/* page fourth styles */
+
+.page_fourth {
+    padding-bottom: 100px;
+}
+
+.page_fourth h2 {
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(2, 2, 78);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.cards_item {
+    width: calc(100%/4- 30px);
+    background-color: white;
+    box-shadow: 0px 0px 3px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15px;
+}
+
+.cards_item img {
+    margin: 15px;
+}
+
+.cards_item p {
+    color: rgb(2, 2, 78);
+    font-size: 20px;
+    padding: 15px;
+}
+
+.page_fourth button , .button_kurs {
+    background-color: #10B582;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+.button_kurs{
+    margin: 0;
+    background-color: rgba(255, 145, 0, 0.941);
+}
+/* section tarif styles */
+
+.tarif {
+    width: 100%;
+    background-image: url('images/home_img/photo (1).png');
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.format_tarif {
+    width: 40%;
+    padding-right:100px;
+    margin-left: auto;
+}
+
+.format_tarif h2 {
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(2, 2, 78);
+}
+
+.format_tarif p {
+    font-size: 20px;
+    color: rgb(2, 2, 78);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.format_tarif button {
+    background-color: rgba(255, 145, 0, 0.941);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+/* footer styles */
+
+/* .footer {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contact {
+    width: calc(100%/5 - 30px);
+}
+
+.contact p {
+    width: 100%;
+}
+
+.contact1 {
+    width: calc(100%/5 - 30px);
+}
+
+.contact2 {
+    width: calc(100%/5 - 30px);
+}
+
+.contact3 {
+    width: calc(100%/5 - 30px);
+}
+
+.contact4 {
+    width: calc(100%/5 - 30px);
+}
+
+.contact5 {
+    width: calc(100%/5 - 30px);
+}
+
+ */

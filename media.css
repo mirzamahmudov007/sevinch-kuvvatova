@@ -1,0 +1,146 @@
+@media (max-width: 1179px) {
+    .main_left {
+        display: none;
+    }
+    .main_right {
+        display: none;
+    }
+}
+
+@media (max-width: 735px) {
+    .header {
+        display: none;
+    }
+
+    .header_item{
+        margin: 0;
+    }
+    .menu img{
+        padding-top: 30px;
+        display: block;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .main_center .title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: calc(100%/2 - 40px);
+    }
+}
+
+@media (max-width: 898px) {
+    .main_second {
+        display: block;
+    }
+    .main_second .learn_text {
+        width: 100%;
+    }
+    .teachers_images {
+        width: 100%;
+    }
+    .teachers_images {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 646px) {
+    .page_second_header_item h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1076px) {
+    .kurs_about h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 900px) {
+    .format_learn {
+        display: block;
+    }
+    .imgs {
+        width: 100%;
+    }
+    .image_main {
+        border-top-right-radius: 210px;
+        right: 10px;
+    }
+    .kurs_about {
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 865px) {
+    .button_kurs {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 540px) {
+    .page_second_header_item h2 {
+        font-size: 20px;
+    }
+    .page_second_header_item p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .page_second_header_item h2 {
+        font-size: 15px;
+    }
+    .page_second_header_item p {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 450px) {
+    .page_fourth h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .format_tarif h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1130px) {
+    .tarif {
+        background-image: none;
+    }
+    .tarif {
+        background-color: #10B582;
+    }
+    .format_tarif {
+        width: 80%;
+        margin: 0px auto;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .format_tarif h2, .format_tarif p {
+        color: white;
+    }
+}
+
+@media (max-width: 550px) {
+    .tarif h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 435px) {
+    .tarif h2 {
+        font-size: 30px;
+    }
+}
